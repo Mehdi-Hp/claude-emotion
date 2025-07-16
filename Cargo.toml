@@ -1,0 +1,18 @@
+[package]
+name = "claude-emotion"
+version = "0.1.0"
+edition = "2024"
+authors = ["Mehdi Hoseini"]
+description = "Emotion detection for Claude Code responses with ASCII anime art"
+license = "MIT"
+
+[dependencies]
+regex = "1.10"
+once_cell = "1.19"
+clap = { version = "4.4", features = ["derive"] }
+
+[profile.release]
+opt-level = "z"     # Optimize for size
+lto = true          # Link-time optimization  
+strip = true        # Strip symbols
+codegen-units = 1   # Single codegen unit
