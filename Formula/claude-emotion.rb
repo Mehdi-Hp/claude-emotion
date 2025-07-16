@@ -1,7 +1,7 @@
 class ClaudeEmotion < Formula
   desc "Emotion detection for Claude Code responses with ASCII anime art"
   homepage "https://github.com/Mehdi-Hp/claude-emotion"
-  url "https://github.com/Mehdi-Hp/claude-emotion/releases/download/v0.1.0/claude-emotion-mac-arm64.tar.gz"
+  url "https://github.com/Mehdi-Hp/claude-emotion/releases/download/v0.1.0/claude-emotion-v0.1.0-aarch64-apple-darwin.tar.gz"
   sha256 "TBD_REPLACE_WITH_ACTUAL_SHA"
   license "WTFPL"
   

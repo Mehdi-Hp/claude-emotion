@@ -8,7 +8,7 @@ NAME="claude-emotion"
 TARGETS=(
     "aarch64-apple-darwin"    # macOS ARM64
     "x86_64-apple-darwin"     # macOS Intel
-    "x86_64-unknown-linux-gnu" # Linux x64
+    # "x86_64-unknown-linux-gnu" # Linux x64 (requires cross-compilation setup)
 )
 
 echo "🔨 Building release binaries for $NAME v$VERSION"
