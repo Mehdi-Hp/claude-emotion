@@ -4,7 +4,12 @@ version = "0.1.0"
 edition = "2024"
 authors = ["Mehdi Hoseini"]
 description = "Emotion detection for Claude Code responses with ASCII anime art"
-license = "MIT"
+license = "WTFPL"
+repository = "https://github.com/Mehdi-Hp/claude-emotion"
+homepage = "https://github.com/Mehdi-Hp/claude-emotion"
+documentation = "https://github.com/Mehdi-Hp/claude-emotion"
+keywords = ["claude", "emotion", "terminal", "ascii", "anime"]
+categories = ["command-line-utilities", "text-processing"]
 
 [lib]
 name = "claude_emotion"

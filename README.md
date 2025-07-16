@@ -35,7 +35,7 @@ I'll help you implement a binary search algorithm...
 
 ```bash
 # Add tap
-brew tap mehdi-hoseini/claude-emotion
+brew tap Mehdi-Hp/claude-emotion
 
 # Install
 brew install claude-emotion
@@ -48,7 +48,7 @@ claude-emotion --install-shell
 
 ### Manual Installation
 
-1. Download the latest binary from [releases](https://github.com/mehdi-hoseini/claude-emotion/releases)
+1. Download the latest binary from [releases](https://github.com/Mehdi-Hp/claude-emotion/releases)
 2. Place in your PATH
 3. Run `claude-emotion --install-shell`
 
@@ -113,7 +113,7 @@ The tool works out of the box with sensible defaults. Advanced users can:
 
 ```bash
 # Build from source
-git clone https://github.com/mehdi-hoseini/claude-emotion
+git clone https://github.com/Mehdi-Hp/claude-emotion
 cd claude-emotion
 cargo build --release
 
@@ -131,11 +131,13 @@ echo "[helpful] Test response" | ./target/release/claude-emotion
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) for details.
+WTFPL (Do What The Fuck You Want To Public License) - see [LICENSE-WTFPL](LICENSE-WTFPL) for details.
+
+TL;DR: Do whatever you want with this code. 🎉
 
 ## Author
 
-Created by [Mehdi Hoseini](https://github.com/mehdi-hoseini) with assistance from Claude.
+Created by [Mehdi Hoseini](https://github.com/Mehdi-Hp) with assistance from Claude.
 
 ---
 

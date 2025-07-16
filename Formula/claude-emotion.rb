@@ -1,9 +1,9 @@
 class ClaudeEmotion < Formula
   desc "Emotion detection for Claude Code responses with ASCII anime art"
-  homepage "https://github.com/mehdi-hoseini/claude-emotion"
-  url "https://github.com/mehdi-hoseini/claude-emotion/releases/download/v0.1.0/claude-emotion-mac-arm64.tar.gz"
+  homepage "https://github.com/Mehdi-Hp/claude-emotion"
+  url "https://github.com/Mehdi-Hp/claude-emotion/releases/download/v0.1.0/claude-emotion-mac-arm64.tar.gz"
   sha256 "TBD_REPLACE_WITH_ACTUAL_SHA"
-  license "MIT"
+  license "WTFPL"
   
   depends_on "rust" => :build
   
